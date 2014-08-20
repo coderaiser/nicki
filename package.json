@@ -1,0 +1,22 @@
+{
+  "name": "nicki",
+  "version": "1.0.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Get names of users by uids from /etc/passwd",
+  "homepage": "http://github.com/coderaiser/nicki",
+  "main": "lib/nicki.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/nicki.git"
+  },
+  "keywords": [
+    "uid",
+    "name",
+    "passwd"
+  ],
+  "dependencies": {
+    "ischanged": "~1.0.2",
+    "util-io": "~1.2.3"
+  },
+  "license": "MIT"
+}

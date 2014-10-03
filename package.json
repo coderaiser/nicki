@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "ischanged": "~1.0.2",
+    "spawnify": "~1.2.14",
     "util-io": "~1.2.3"
   },
   "license": "MIT"

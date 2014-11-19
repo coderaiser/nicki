@@ -1,3 +1,9 @@
+2014.11.19, v1.2.2
+
+fix:
+- (darwin) spawify: add "end"
+
+
 2014.11.5, v1.2.1
 
 feature:

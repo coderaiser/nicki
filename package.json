@@ -1,6 +1,6 @@
 {
   "name": "nicki",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Get names of users by uids from /etc/passwd",
   "homepage": "http://github.com/coderaiser/nicki",

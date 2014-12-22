@@ -1,3 +1,9 @@
+2014.12.22, v1.2.6
+
+feature:
+- (package) rm util-io
+
+
 2014.11.25, v1.2.5
 
 feature:

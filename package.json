@@ -9,14 +9,25 @@
     "type": "git",
     "url": "git://github.com/coderaiser/nicki.git"
   },
+  "scripts": {
+    "lint": "eslint lib",
+    "6to5": "buble lib -o legacy",
+    "build": "redrun 6to5 legacy",
+    "legacy": "echo \"module.exports = require('./nicki');\" > legacy/index.js",
+    "wisdom": "npm run build"
+  },
   "keywords": [
     "uid",
     "name",
     "passwd"
   ],
   "dependencies": {
-    "ischanged": "~1.0.2",
+    "ischanged": "^1.0.2",
     "spawnify": "^3.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "buble": "^0.14.2",
+    "eslint": "^3.10.2"
+  }
 }

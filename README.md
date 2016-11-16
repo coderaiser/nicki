@@ -63,12 +63,12 @@ var nicki = require('nicki/legacy');
 MIT
 
 
-[NPMIMGURL]:                https://img.shields.io/npm/v/darwin.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/darwin/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/darwin.svg?style=flat
+[NPMIMGURL]:                https://img.shields.io/npm/v/nicki.svg?style=flat
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/nicki/master.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/nicki.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]:                   https://npmjs.org/package/darwin "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/darwin  "Build Status"
-[DependencyStatusURL]:      https://gemnasium.com/coderaiser/darwin "Dependency Status"
+[NPMURL]:                   https://npmjs.org/package/nicki "npm"
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/nicki  "Build Status"
+[DependencyStatusURL]:      https://gemnasium.com/coderaiser/nicki "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 

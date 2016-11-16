@@ -1,7 +1,6 @@
-Nicki
-=========
+# Nicki [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
-Get names of users by uids from /etc/passwd.
+Get names of users by uids from `/etc/passwd` (or from `dscl` on `darwin`).
 
 ## Install
 
@@ -62,3 +61,14 @@ var nicki = require('nicki/legacy');
 ## License
 
 MIT
+
+
+[NPMIMGURL]:                https://img.shields.io/npm/v/darwin.svg?style=flat
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/darwin/master.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/darwin.svg?style=flat
+[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]:                   https://npmjs.org/package/darwin "npm"
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/darwin  "Build Status"
+[DependencyStatusURL]:      https://gemnasium.com/coderaiser/darwin "Dependency Status"
+[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
+

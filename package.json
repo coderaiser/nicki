@@ -14,7 +14,12 @@
     "6to5": "buble lib -o legacy",
     "build": "redrun 6to5 legacy",
     "legacy": "echo \"module.exports = require('./nicki');\" > legacy/index.js",
-    "wisdom": "npm run build"
+    "wisdom": "npm run build",
+    "test": "tape test/*.js",
+    "watcher": "nodemon -w test -w lib --exec",
+    "watch:test": "npm run watcher -- npm test",
+    "coverage": "nyc npm test",
+    "report": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
     "uid",
@@ -28,6 +33,9 @@
   "license": "MIT",
   "devDependencies": {
     "buble": "^0.14.2",
-    "eslint": "^3.10.2"
+    "coveralls": "^2.11.15",
+    "eslint": "^3.10.2",
+    "nyc": "^9.0.1",
+    "tape": "^4.6.2"
   }
 }

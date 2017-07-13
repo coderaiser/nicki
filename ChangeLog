@@ -1,3 +1,12 @@
+2017.07.13, v3.0.0
+
+feature:
+- (package) add eslint-plugin-node
+- (nicki) drop support of node version < 4
+- (gitignore) add package-lock.json
+- (package) spawnify v4.0.1
+
+
 2016.11.16, v2.0.1
 
 fix:

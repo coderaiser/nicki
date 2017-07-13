@@ -11,10 +11,6 @@
   },
   "scripts": {
     "lint": "eslint lib",
-    "6to5": "buble lib -o legacy",
-    "build": "redrun 6to5 legacy",
-    "legacy": "echo \"module.exports = require('./nicki');\" > legacy/index.js",
-    "wisdom": "npm run build",
     "test": "tape test/*.js",
     "watcher": "nodemon -w test -w lib --exec",
     "watch:test": "npm run watcher -- npm test",
@@ -31,8 +27,10 @@
     "spawnify": "^4.0.1"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
-    "buble": "^0.14.2",
     "coveralls": "^2.11.15",
     "eslint": "^3.10.2",
     "nyc": "^9.0.1",

@@ -50,14 +50,6 @@ nicki(function(error, names) {
 
 `Nicki` parses `/etc/passwd` and makes object where key is `uid` and value is `name`.
 
-## Environments
-
-In old `node.js` environments that not fully supports `es2015`, `nicki` could be used with:
-
-```js
-var nicki = require('nicki/legacy');
-```
-
 ## License
 
 MIT

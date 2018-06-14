@@ -9,7 +9,7 @@ Get names of users by uids from `/etc/passwd` (or from `dscl` on `darwin`).
 ## Hot to use?
 
 ```js
-var nicki = require('nicki');
+const nicki = require('nicki');
 
 nicki(function(error, names) {
     console.log(error || names);

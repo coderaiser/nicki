@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "ischanged": "^2.0.0",
-    "spawnify": "^4.0.1"
+    "spawnify": "^5.0.0"
   },
   "license": "MIT",
   "engines": {

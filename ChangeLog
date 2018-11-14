@@ -1,3 +1,13 @@
+2018.11.14, v4.0.0
+
+feature:
+- (package) eslint v5.9.0
+- (package) nyc v13.1.0
+- (package) spawnify v5.0.0
+- (nicki) callback -> promise
+- (package) drop support of node < 8
+
+
 2018.06.14, v3.0.1
 
 feature:

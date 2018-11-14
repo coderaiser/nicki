@@ -10,10 +10,7 @@ Get names of users by uids from `/etc/passwd` (or from `dscl` on `darwin`).
 
 ```js
 const nicki = require('nicki');
-
-nicki(function(error, names) {
-    console.log(error || names);
-}
+const names = await nicki();
 
 /*
  * Could be something like this

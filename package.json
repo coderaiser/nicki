@@ -24,7 +24,7 @@
     "passwd"
   ],
   "dependencies": {
-    "ischanged": "^2.0.0",
+    "ischanged": "^3.0.0",
     "spawnify": "^6.0.0"
   },
   "license": "MIT",

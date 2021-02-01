@@ -14,7 +14,7 @@ const names = await nicki();
 
 /*
  * Could be something like this
-{ 
+{
   '0': 'root',
   '1': 'daemon',
   '2': 'bin',
@@ -51,13 +51,11 @@ const names = await nicki();
 
 MIT
 
-
-[NPMIMGURL]:                https://img.shields.io/npm/v/nicki.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/nicki/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/nicki.svg?style=flat
-[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]:                   https://npmjs.org/package/nicki "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/nicki  "Build Status"
-[DependencyStatusURL]:      https://david-dm.org/coderaiser/nicki "Dependency Status"
-[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
-
+[NPMIMGURL]: https://img.shields.io/npm/v/nicki.svg?style=flat
+[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/nicki/master.svg?style=flat
+[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/nicki.svg?style=flat
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]: https://npmjs.org/package/nicki "npm"
+[BuildStatusURL]: https://travis-ci.org/coderaiser/nicki "Build Status"
+[DependencyStatusURL]: https://david-dm.org/coderaiser/nicki "Dependency Status"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"

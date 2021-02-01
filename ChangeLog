@@ -1,3 +1,12 @@
+2021.02.01, v6.1.0
+
+feature:
+- (package) eslint v7.19.0
+- (package) eslint-plugin-putout v7.1.1
+- (package) putout v14.0.3
+- (nicki) spawnify -> child_process.exec
+
+
 2021.01.20, v6.0.0
 
 feature:

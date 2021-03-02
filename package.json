@@ -24,7 +24,7 @@
     "passwd"
   ],
   "dependencies": {
-    "ischanged": "^3.0.2"
+    "ischanged": "^4.0.0"
   },
   "license": "MIT",
   "engines": {

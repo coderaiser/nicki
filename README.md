@@ -1,5 +1,14 @@
 # Nicki [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
+[NPMIMGURL]: https://img.shields.io/npm/v/nicki.svg?style=flat
+[BuildStatusURL]: https://github.com/coderaiser/ischanged/actions?query=workflow%3A%22Node+CI%22 "Build Status"
+[BuildStatusIMGURL]: https://github.com/coderaiser/ischanged/workflows/Node%20CI/badge.svg
+[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/nicki.svg?style=flat
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[NPMURL]: https://npmjs.org/package/nicki "npm"
+[DependencyStatusURL]: https://david-dm.org/coderaiser/nicki "Dependency Status"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
+
 Get names of users by uids from `/etc/passwd` (or from `dscl` on `darwin`).
 
 ## Install
@@ -50,12 +59,3 @@ const names = await nicki();
 ## License
 
 MIT
-
-[NPMIMGURL]: https://img.shields.io/npm/v/nicki.svg?style=flat
-[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/nicki/master.svg?style=flat
-[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/nicki.svg?style=flat
-[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]: https://npmjs.org/package/nicki "npm"
-[BuildStatusURL]: https://travis-ci.org/coderaiser/nicki "Build Status"
-[DependencyStatusURL]: https://david-dm.org/coderaiser/nicki "Dependency Status"
-[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
